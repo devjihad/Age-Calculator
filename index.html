@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Age-Calculator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    
+<body class="flex justify-center items-center bg-zinc-500 text-white min-h-[450px]" >
+    <div class=" bg-zinc-900 min-w[350px] py-[70px] px-[40px] rounded-lg ">
+        <h2 class="text-4xl font-semibold leading-12">Javascript <br> <span class="text-green-300">Age-Calculator</span></h2>
+        <div class="py-8 px-4 bg-zinc-500 min-w-[300px] rounded-lg mt-5  ">
+            <input type="date" name="" id="input" class="border-2 outline-0 border-zinc-900 min-w-[250px] py-2 px-4 mr-3 rounded-lg text-xl relative ">
+            <button class=" bg-gray-800 min-w-[100px] py-2 px-4 mr-5 rounded-lg text-xl" id="button">Calculate</button>
+        </div>
+
+        <h3 id="show" class="text-2xl text-white font-semibold mt-5"></h3>
+    </div>
+
+    <script src="./Logic.js"></script>
 </body>
 </html>

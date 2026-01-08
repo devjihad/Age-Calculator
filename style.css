@@ -1,0 +1,17 @@
+#input{
+    flex: 1;
+}
+
+#input::-webkit-calendar-picker-indicator{
+top:0;
+bottom:0;
+left:0;
+right: 0;
+width:auto;
+position: absolute;
+background-position: calc(100%-10%);
+cursor: pointer;
+background-size: 0px;
+height: auto;
+/* display: none; */
+}
